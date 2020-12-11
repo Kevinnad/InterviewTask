@@ -27,7 +27,6 @@
         android:padding="5dp"
         android:text="Description"
         android:textSize="13sp"
-        android:maxLength="45"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_name"/>
 
@@ -44,6 +43,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_node_id"/>
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/arrow_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/ic_baseline_arrow_forward_ios_24"

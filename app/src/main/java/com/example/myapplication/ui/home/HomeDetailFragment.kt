@@ -1,5 +1,6 @@
 package com.example.myapplication.ui.home
 
+import android.opengl.Visibility
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
@@ -29,6 +30,7 @@ class HomeDetailFragment : Fragment(R.layout.list_item){
              tv_name.text = selectedItem.abstract
              tv_node_id.text = selectedItem.byline
              tv_type.text = selectedItem.publishedDate
+             arrow_view.visibility = View.GONE
          }
 
 

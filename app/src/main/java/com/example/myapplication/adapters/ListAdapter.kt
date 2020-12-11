@@ -18,7 +18,7 @@ class ListAdapter(private val listener: AdapterClickListener) : RecyclerView.Ada
 
         return ListViewHolder(
             (LayoutInflater.from(parent.context)
-                .inflate(R.layout.list_item, parent, false)),listener,parent.context)
+                .inflate(R.layout.list_item, parent, false)),listener)
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
